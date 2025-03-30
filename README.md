@@ -6,19 +6,12 @@ Jatbeats is an iOS/iPadOS/macOS app written in Swift to interact with an [Ampach
 
 ### iOS
 
-<a href="https://apps.apple.com/app/amperfy-music/id1530145038#?platform=iphone">
-  <img src=".github/AppStore/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" height="45" />
-</a>
 
 <img src=".github/Screenshots/Player.jpg" width="250" alt="Screenshot of the Amperfy player" /> &nbsp;
 <img src=".github/Screenshots/AlbumDetail.jpg" width="250" alt="Screenshot of the Amperfy artist detail view" /> &nbsp;
 <img src=".github/Screenshots/Library.jpg" width="250" alt="Screenshot of the Amperfy library view" />
 
 ### macOS
-
-<a href="https://apps.apple.com/app/amperfy-music/id1530145038#?platform=mac">
-  <img src=".github/AppStore/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" height="45" />
-</a>
 
 <img src=".github/Screenshots/macOS-Playlist.png" width="750" alt="Screenshot of the Amperfy playlist view in macOS" />
 
@@ -46,7 +39,7 @@ Jatbeats is an iOS/iPadOS/macOS app written in Swift to interact with an [Ampach
 
 1. Check out the latest version of the project:
   ```
-  git clone https://github.com/BLeeEZ/amperfy.git
+  git clone https://github.com/Jatbeats.git
   cd amperfy
   ```
 
@@ -55,10 +48,6 @@ Jatbeats is an iOS/iPadOS/macOS app written in Swift to interact with an [Ampach
 4. Build and run the "Amperfy" scheme
 
   >Real device testing: Amperfy has Apple CarPlay and Siri support. To test it on a real device a developer certificate with granted access to `com.apple.developer.playable-content` and `com.apple.developer.siri` is required. To test Amperfy without Apple CarPlay and Siri clear all entries in `Amperfy/Amperfy.entitlements`.
-
-## Beta test releases
-
-For more information, and to participate in the public beta releases, please visit [Amperfy Beta](https://github.com/BLeeEZ/amperfy/issues/25).
 
 ## Contribution
 
@@ -77,6 +66,6 @@ Pull requests are always welcome. Please execute `AmperfyKitTests` to ensure cod
 - [Ifrit](https://github.com/ukushu/Ifrit) by [Andrii Vynnychenko](https://github.com/ukushu) is licensed under [MIT License](https://github.com/ukushu/Ifrit/blob/main/LICENSE.md)
 - [swift-collections](https://github.com/apple/swift-collections) by [Apple](https://github.com/apple) is licensed under [Apache License 2.0](https://github.com/apple/swift-collections/blob/main/LICENSE.txt)
 
-**Amperfy license:** [GPLv3](https://github.com/BLeeEZ/Amperfy/blob/master/LICENSE)
+**Jatbeats license:** [GPLv3](https://github.com/Jatbeats/blob/master/LICENSE)
 
 **Special thanks:** [Dirk Hildebrand](https://apps.apple.com/us/developer/dirk-hildebrand/id654444924)
