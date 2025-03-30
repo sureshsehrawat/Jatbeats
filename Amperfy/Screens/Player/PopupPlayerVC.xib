@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopupPlayerVC" customModule="Amperfy" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundImage" destination="uc4-Rw-bKA" id="WkZ-wK-VH1"/>
+                <outlet property="closeButtonPlaceholderView" destination="GMI-oz-xsz" id="fsR-sA-Fra"/>
+                <outlet property="controlPlaceholderHeightConstraint" destination="4Md-WZ-qJc" id="czl-9v-6th"/>
+                <outlet property="controlPlaceholderView" destination="B0Y-BS-JDd" id="vCd-rV-aRY"/>
+                <outlet property="largePlayerPlaceholderView" destination="lyG-pB-bha" id="s82-dZ-gRe"/>
+                <outlet property="tableView" destination="6gH-MH-Q1w" id="yVW-IT-Efj"/>
+                <outlet property="view" destination="9Ao-u1-xa1" id="qS4-gl-eGl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="9Ao-u1-xa1">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uc4-Rw-bKA">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lyG-pB-bha" userLabel="Large Player Placeholder">
+                    <rect key="frame" x="20" y="68" width="374" height="594"/>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gH-MH-Q1w">
+                    <rect key="frame" x="20" y="68" width="374" height="594"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="3lu-QN-yBq"/>
+                        <outlet property="delegate" destination="-1" id="cUh-lm-7eM"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B0Y-BS-JDd" userLabel="Control Placeholder">
+                    <rect key="frame" x="20" y="662" width="374" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="4Md-WZ-qJc"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GMI-oz-xsz" userLabel="Close Button Placeholder">
+                    <rect key="frame" x="369" y="38" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="GMI-oz-xsz" secondAttribute="height" multiplier="1:1" id="OZG-UR-e2E"/>
+                        <constraint firstAttribute="width" constant="25" id="seA-YL-Ib6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="1MA-6G-aB5"/>
+            <constraints>
+                <constraint firstItem="lyG-pB-bha" firstAttribute="top" secondItem="9Ao-u1-xa1" secondAttribute="topMargin" constant="20" id="18e-Ia-XA9"/>
+                <constraint firstItem="B0Y-BS-JDd" firstAttribute="top" secondItem="6gH-MH-Q1w" secondAttribute="bottom" id="31P-Um-22E"/>
+                <constraint firstAttribute="bottom" secondItem="uc4-Rw-bKA" secondAttribute="bottom" id="BR3-r1-kqM"/>
+                <constraint firstAttribute="rightMargin" secondItem="lyG-pB-bha" secondAttribute="right" id="Bv5-GQ-NSk"/>
+                <constraint firstItem="6gH-MH-Q1w" firstAttribute="top" secondItem="9Ao-u1-xa1" secondAttribute="topMargin" constant="20" id="CX2-Pe-eWy"/>
+                <constraint firstItem="6gH-MH-Q1w" firstAttribute="leading" secondItem="9Ao-u1-xa1" secondAttribute="leadingMargin" id="J6w-F0-q1Q"/>
+                <constraint firstItem="uc4-Rw-bKA" firstAttribute="trailing" secondItem="1MA-6G-aB5" secondAttribute="trailing" id="JKc-tO-MZO"/>
+                <constraint firstItem="B0Y-BS-JDd" firstAttribute="leading" secondItem="9Ao-u1-xa1" secondAttribute="leadingMargin" id="Mss-gv-oXo"/>
+                <constraint firstAttribute="topMargin" secondItem="GMI-oz-xsz" secondAttribute="top" constant="10" id="POQ-Sv-XPs"/>
+                <constraint firstAttribute="trailingMargin" secondItem="6gH-MH-Q1w" secondAttribute="trailing" id="SC7-8I-hah"/>
+                <constraint firstItem="uc4-Rw-bKA" firstAttribute="leading" secondItem="1MA-6G-aB5" secondAttribute="leading" id="eTE-g1-R4C"/>
+                <constraint firstAttribute="bottomMargin" secondItem="B0Y-BS-JDd" secondAttribute="bottom" id="eTW-73-QtE"/>
+                <constraint firstItem="B0Y-BS-JDd" firstAttribute="top" secondItem="lyG-pB-bha" secondAttribute="bottom" id="n3g-77-ORg"/>
+                <constraint firstItem="GMI-oz-xsz" firstAttribute="trailing" secondItem="1MA-6G-aB5" secondAttribute="trailing" constant="-20" id="o7G-AX-Oc8"/>
+                <constraint firstItem="uc4-Rw-bKA" firstAttribute="top" secondItem="9Ao-u1-xa1" secondAttribute="top" id="vLW-rG-4pv"/>
+                <constraint firstAttribute="trailingMargin" secondItem="B0Y-BS-JDd" secondAttribute="trailing" id="vbp-wW-JVG"/>
+                <constraint firstItem="lyG-pB-bha" firstAttribute="left" secondItem="9Ao-u1-xa1" secondAttribute="leftMargin" id="wBC-Wu-AKk"/>
+            </constraints>
+            <point key="canvasLocation" x="369.56521739130437" y="-1544.8660714285713"/>
+        </view>
+    </objects>
+</document>
