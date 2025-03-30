@@ -1,4 +1,4 @@
-# ![Logo](https://github.com/BLeeEZ/amperfy/blob/master/AmperfyKit/Assets/Assets.xcassets/AppIcon.appiconset/Icon-40.png) Amperfy
+# ![Logo](https://github.com/sureshsehrawat/Jatbeats/blob/main/AmperfyKit/Assets/logo.png) Jatbeats
 
 ## Basics
 
