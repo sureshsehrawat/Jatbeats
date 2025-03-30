@@ -66,6 +66,6 @@ Pull requests are always welcome. Please execute `AmperfyKitTests` to ensure cod
 - [Ifrit](https://github.com/ukushu/Ifrit) by [Andrii Vynnychenko](https://github.com/ukushu) is licensed under [MIT License](https://github.com/ukushu/Ifrit/blob/main/LICENSE.md)
 - [swift-collections](https://github.com/apple/swift-collections) by [Apple](https://github.com/apple) is licensed under [Apache License 2.0](https://github.com/apple/swift-collections/blob/main/LICENSE.txt)
 
-**Jatbeats license:** [GPLv3](https://github.com/Jatbeats/blob/master/LICENSE)
+**Jatbeats license:** [GPLv3](https://github.com/sureshsehrawat/Jatbeats/blob/master/LICENSE)
 
 **Special thanks:** [Dirk Hildebrand](https://apps.apple.com/us/developer/dirk-hildebrand/id654444924)
