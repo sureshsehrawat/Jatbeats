@@ -1,8 +1,8 @@
-# ![Logo](https://github.com/sureshsehrawat/Jatbeats/blob/main/AmperfyKit/Assets/logo.png) Jatbeats
+# ![Logo](https://github.com/sureshsehrawat/Jatbeats/blob/main/AmperfyKit/Assets/logo.png) 
 
 ## Basics
 
-Amperfy is an iOS/iPadOS/macOS app written in Swift to interact with an [Ampache](http://ampache.github.io) or [Subsonic](http://www.subsonic.org) server.
+Jatbeats is an iOS/iPadOS/macOS app written in Swift to interact with an [Ampache](http://ampache.github.io) or [Subsonic](http://www.subsonic.org) server.
 
 ### iOS
 
